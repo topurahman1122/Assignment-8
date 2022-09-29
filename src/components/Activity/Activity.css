@@ -1,0 +1,29 @@
+.card {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgb(181, 181, 181);
+}
+
+.card img {
+    min-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+p {
+    color: gray
+}
+
+button {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #89BB00;
+    border: none;
+    width: 100%;
+    color: white;
+    padding: 12px 0;
+    border-radius: 10px;
+    margin: 0;
+    cursor: pointer;
+}

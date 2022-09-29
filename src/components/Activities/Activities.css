@@ -1,0 +1,246 @@
+.main-section img {
+    width: 200px;
+}
+
+.main-section {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+
+.activities-section {
+    margin: 60px 90px;
+}
+
+.card-section {
+    margin: 60px 0;
+}
+
+.about-me {
+    background-color: white;
+    padding: 40px 20px;
+    box-shadow: 0px 0px 20px rgb(181, 181, 181);
+}
+
+.activities {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.name-img {
+    display: flex;
+    align-items: center;
+}
+
+.name-img img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #89BB00;
+
+}
+
+.name {
+    padding: 0 10px;
+}
+
+.name h4 {
+    margin-bottom: -10px;
+    margin-top: 0;
+}
+
+.body-info {
+    background-color: #F3F4FA;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.body-info p {
+    margin-top: -20px;
+}
+
+span {
+    color: gray;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.break-time {
+    background-color: #F3F4FA;
+    padding: 6px 20px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.time button {
+    background-color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.time button {
+    color: black;
+    padding: 14px 10px;
+    margin: 0px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.time button:hover {
+    background-color: #89BB00;
+}
+
+button.active {
+    background-color: #89BB00;
+}
+
+.time button:hover {
+    color: white;
+
+}
+
+.total-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F3F4FA;
+    padding: 0px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.total-time h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.total-time p {
+    color: gray;
+    font-size: 14px;
+}
+
+
+/*_____________________________________________________*/
+/*MEDIAQUERIES*/
+@media only all and (max-width: 1300px) {
+    .main-section {
+        display: grid;
+        grid-template-columns: 5fr 2fr;
+    }
+
+    .activities {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .about-me {
+        margin: 0 10px;
+    }
+
+    .activities-section {
+        margin: 10px 10px;
+    }
+
+    .card-section {
+        margin: 10px 0;
+    }
+
+}
+
+@media only all and (max-width: 1200px) {
+
+    .main-section {
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+    }
+
+    .activities {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .about-me {
+        margin: 0 10px;
+    }
+
+    .activities-section {
+        margin: 10px 10px;
+    }
+
+    .card-section {
+        margin: 10px 0;
+    }
+}
+
+@media only all and (max-width: 900px) {
+
+    .main-section {
+        display: grid;
+        grid-template-columns: 5fr 2fr;
+    }
+
+    .activities {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .about-me {
+        margin: 0 10px;
+    }
+
+    .activities-section {
+        margin: 10px 10px;
+    }
+
+    .card-section {
+        margin: 10px 0;
+    }
+}
+
+@media only all and (max-width: 600px) {
+    .main-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .activities {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+
+    }
+
+    .about-me {
+        margin: 0 10px;
+    }
+
+    .activities-section {
+        margin: 10px 10px;
+    }
+
+    .activities-section img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .activities-section h3 {
+        text-align: center;
+    }
+
+    .card-section {
+        margin: 10px 0;
+    }
+
+}
